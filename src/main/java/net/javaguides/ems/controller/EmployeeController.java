@@ -2,13 +2,11 @@ package net.javaguides.ems.controller;
 
 
 import net.javaguides.ems.dto.EmployeeDto;
-import net.javaguides.ems.entity.Employe;
 import net.javaguides.ems.service.EmployeeService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-import java.util.Optional;
+import java.util.List;;
 
 @RestController
 @RequestMapping("/api/v1/employee")
